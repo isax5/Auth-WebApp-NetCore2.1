@@ -2,7 +2,7 @@
 Auth Example for .Net Core 2.1 with C#
 
 ## WebApp with Tokens for
-Markup: * Mobile Apps
+* Mobile Apps
 * Roles for users
 * Email prove
 * Reset of password
