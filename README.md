@@ -14,9 +14,9 @@ Auth Example for .Net Core 2.1 with C#
 ## How to configurate
 * Configurate DB and email for admin in SeedDB and appsettings.json & appsettings.Develoment.json
 
-Admin Account:
-Username: admin@gmail.com
-Password: 123456
+### Admin Account:
+* Username: admin@gmail.com
+* Password: 123456
 
 ## Steps in .NET Core 2.1 Web project:
 * Create directories (~/Helpers, ~/Data, ~/Data/Entities, ~/Data/Repositories)
