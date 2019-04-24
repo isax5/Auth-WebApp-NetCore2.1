@@ -27,7 +27,7 @@ Auth Example for .Net Core 2.1 with C#
 * Create Repositories
 * Add Startup configurations (Injections, DB Connection, user Password, tokens, etc)
 * Create Controllers
-* Create Views and add new options for login
+* Create Views and add new options for login in navigationbar in _layout
 * Create SeedDB (The admin have to be configurated here)
 * Modify Program and add Seeding call funcion
 * Configurate appsetttings.json and appsetttings.Development.json

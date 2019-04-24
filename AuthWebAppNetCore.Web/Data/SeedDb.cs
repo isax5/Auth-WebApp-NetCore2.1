@@ -36,9 +36,9 @@ namespace AuthWebAppNetCore.Web.Data
             }
 
             // Users for testing
+            var user = await CheckUserAsync("admin@gmail.com", "Isaac", "Rebolledo", Roles.Admin);
             await CheckUserAsync("brad@gmail.com", "Brad", "Pit", Roles.Customer);
             await CheckUserAsync("angelina@gmail.com", "Angelina", "Jolie", Roles.Customer);
-            var user = await CheckUserAsync("admin@gmail.com", "Isaac", "Rebolledo", Roles.Admin);
         }
 
         private async Task<User> CheckUserAsync(string userName, string firstName, string lastName, string role)
