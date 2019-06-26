@@ -36,7 +36,7 @@ Auth Example for .Net Core 2.1 with C#
 * Configure NPM in wwwroot
 
 ## Commands to modify DataBase
-* dotnet ef migrations add ModifyProducts
+* dotnet ef migrations add <Migration Name>
 * dotnet ef database update
 * dotnet ef database drop
 
