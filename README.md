@@ -35,5 +35,9 @@ Auth Example for .Net Core 2.1 with C#
 * Configure Not Found Page
 * Configure NPM in wwwroot
 
+## Commands to modify DataBase
+* dotnet ef migrations add ModifyProducts
+* dotnet ef database update
+* dotnet ef database drop
 
 ### Isaac Rebolledo
